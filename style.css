@@ -20,6 +20,10 @@ nav {
     align-items: center;
 }
 
+.react__templates {
+    display: flex;
+}
+
 .nav__logo {
     width: 40px;
 }
