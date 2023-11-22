@@ -11,6 +11,7 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    display: flex;
 }
 
 nav {
@@ -31,7 +32,7 @@ nav {
 .templates__logo {
     width: 100%;
     min-width: 0px;
-    max-width: 32rem;
+    max-width: 80rem;
 }
 
 .nav__anchor {
@@ -55,6 +56,7 @@ nav {
 
 
 .customers {
+    
     margin-top: 1rem;
     width: 100%;
     opacity: 0.5;
@@ -69,3 +71,42 @@ flex-direction: column;
 .templates__logo {
     width: 80%;
 }
+
+.input {
+    width: 100%;
+    border-radius: 9999px;
+    border-width: 2px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+    font-weight: 500;
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 300ms;
+}
+
+
+.btn {
+    
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+    display: flex;
+    width: 100%;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 9999px;
+    --tw-bg-opacity: 1;
+    background-color: rgb(100 21 255 / var(--tw-bg-opacity));
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 700;
+    --tw-text-opacity: 1;
+    color: rgb(247 250 252 / var(--tw-text-opacity));
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
+    transition-duration: 300ms;
+}  
